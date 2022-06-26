@@ -1,0 +1,23 @@
+
+.section {
+	padding: 30px 0;
+	position: relative;
+	min-height: auto;
+	width: 100%;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-ms-flex-flow: row;
+	flex-flow: row;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+  }
+.top { width: 85%; margin: auto; }
+.ima { border-radius: 2%; overflow: hidden; transition: all 0.5s ease 0s; position: relative; }
+.ima:hover { transform:scale(1.1); box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5); }
+#dm {
+    width: 140%;
+}
